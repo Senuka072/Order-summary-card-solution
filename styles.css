@@ -1,115 +1,250 @@
-    @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
-    *,
-    *::after,
-    *::before {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
-     :root {
-        --Pale-blue: hsl(225, 100%, 94%);
-        --Bright-blue: hsl(245, 75%, 52%);
-        --Bright-blue-2: hsl(245, 75%, 60%);
-        --Very-pale-blue: hsl(225, 100%, 98%);
-        --Desaturated-blue: hsl(224, 23%, 55%);
-        --Dark-blue: hsl(223, 47%, 23%);
-    }
-    
-    a {
-        text-decoration: none;
-    }
-    
-    p {
-        font-size: 16px;
-        color: var(--Desaturated-blue);
-    }
-    
-    body {
-        font-family: "Red Hat Display", sans-serif;
-        min-height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        background-color: var(--Pale-blue);
-    }
-    
-    .container {
-        width: 450px;
-        border-radius: 10px;
-        background-color: white;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    }
-    
-    .content {
-        width: 355px;
-        margin: 0 auto;
-    }
-    
-    .container .heading {
-        margin: 55px 0 35px 0;
-    }
-    
-    .plans {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-top: 60px;
-        margin-bottom: 50px;
-        text-align: start;
-    }
-    
-    .annual-plan {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .annual-plan img {
-        margin-right: 20px;
-    }
-    
-    .proceed {
-        margin-bottom: 40px;
-        background-color: var(--Bright-blue);
-        padding: 10px 100px;
-        border-radius: 10px;
-        box-shadow: var(--Bright-blue) 0px 5px 15px;
-    }
-    
-    .proceed:hover {
-        background-color: var(--Bright-blue-2);
-    }
-    
-    .proceed a {
-        color: white;
-    }
-    
-    .change {
-        text-decoration: underline;
-        color: var(--Bright-blue);
-        font-weight: 900;
-    }
-    
-    .change:hover {
-        text-decoration: none;
-        color: var(--Bright-blue-2);
-    }
-    
-    .cancel {
-        margin-bottom: 50px;
-    }
-    
-    .cancel a {
-        color: var(--Desaturated-blue);
-        font-weight: 900;
-    }
-    
-    .cancel a:hover {
-        color: var(--Dark-blue);
-    }
-    
-    .container img {
-        border-radius: 10px 10px 0 0;
-    }
+                @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+                *,
+                *::after,
+                *::before {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+                
+                 :root {
+                    --Pale-blue: hsl(225, 100%, 94%);
+                    --Bright-blue: hsl(245, 75%, 52%);
+                    --Bright-blue-2: hsl(245, 75%, 60%);
+                    --Very-pale-blue: hsl(225, 100%, 98%);
+                    --Desaturated-blue: hsl(224, 23%, 55%);
+                    --Dark-blue: hsl(223, 47%, 23%);
+                }
+                
+                a {
+                    text-decoration: none;
+                }
+                
+                p {
+                    font-size: 16px;
+                    color: var(--Desaturated-blue);
+                }
+                
+                body {
+                    font-family: "Red Hat Display", sans-serif;
+                    min-height: 100vh;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    background-color: var(--Pale-blue);
+                }
+                
+                .container {
+                    width: 450px;
+                    border-radius: 20px;
+                    background-color: white;
+                    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+                }
+                
+                .main-img {
+                    border-radius: 20px 20px 0 0;
+                }
+                
+                .content {
+                    width: 355px;
+                    margin: 0 auto;
+                }
+                
+                .container .heading {
+                    margin: 55px 0 35px 0;
+                }
+                
+                .plans {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-top: 60px;
+                    margin-bottom: 50px;
+                    text-align: start;
+                }
+                
+                .annual-plan {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                
+                .annual-plan img {
+                    margin-right: 20px;
+                }
+                
+                .proceed {
+                    margin-bottom: 40px;
+                    background-color: var(--Bright-blue);
+                    padding: 10px 100px;
+                    border-radius: 10px;
+                    box-shadow: var(--Bright-blue) 0px 5px 15px;
+                }
+                
+                .proceed:hover {
+                    background-color: var(--Bright-blue-2);
+                }
+                
+                .proceed a {
+                    color: white;
+                }
+                
+                .change {
+                    text-decoration: underline;
+                    color: var(--Bright-blue);
+                    font-weight: 900;
+                }
+                
+                .change:hover {
+                    text-decoration: none;
+                    color: var(--Bright-blue-2);
+                }
+                
+                .cancel {
+                    margin-bottom: 50px;
+                }
+                
+                .cancel a {
+                    color: var(--Desaturated-blue);
+                    font-weight: 900;
+                }
+                
+                .cancel a:hover {
+                    color: var(--Dark-blue);
+                }
+                
+                @media only screen and (max-width: 320px) {
+                    p {
+                        font-size: 14px;
+                    }
+                    .container {
+                        width: 300px;
+                        margin: 0 auto;
+                    }
+                    .container .heading {
+                        font-size: 25px;
+                        margin: 35px 0 15px 0;
+                    }
+                    .main-img {
+                        width: 300px;
+                        border-radius: 20px 20px 0 0;
+                    }
+                    .content {
+                        width: 205px;
+                    }
+                    .plans {
+                        margin-top: 30px;
+                        margin-bottom: 20px;
+                    }
+                    .annual-plan img {
+                        width: 35px;
+                    }
+                    .annual-plan h3 {
+                        font-size: 14px;
+                    }
+                    .annual-plan p {
+                        font-size: 12px;
+                    }
+                    .plans a {
+                        font-size: 12px;
+                    }
+                    .proceed {
+                        font-size: 12px;
+                        padding: 10px 45px;
+                        margin-bottom: 20px;
+                    }
+                    .cancel {
+                        margin-bottom: 25px;
+                    }
+                }
+                
+                @media only screen and (max-width: 375px) {
+                    p {
+                        font-size: 14px;
+                    }
+                    .container {
+                        width: 300px;
+                        margin: 0 auto;
+                    }
+                    .container .heading {
+                        font-size: 25px;
+                        margin: 35px 0 15px 0;
+                    }
+                    .main-img {
+                        width: 300px;
+                        border-radius: 20px 20px 0 0;
+                    }
+                    .content {
+                        width: 205px;
+                    }
+                    .plans {
+                        margin-top: 30px;
+                        margin-bottom: 20px;
+                    }
+                    .annual-plan img {
+                        width: 35px;
+                    }
+                    .annual-plan h3 {
+                        font-size: 14px;
+                    }
+                    .annual-plan p {
+                        font-size: 12px;
+                    }
+                    .plans a {
+                        font-size: 12px;
+                    }
+                    .proceed {
+                        font-size: 12px;
+                        padding: 10px 45px;
+                        margin-bottom: 20px;
+                    }
+                    .cancel {
+                        margin-bottom: 25px;
+                    }
+                }
+                
+                @media only screen and (max-width: 425px) {
+                    p {
+                        font-size: 14px;
+                    }
+                    .container {
+                        width: 300px;
+                        margin: 0 auto;
+                    }
+                    .container .heading {
+                        font-size: 25px;
+                        margin: 35px 0 15px 0;
+                    }
+                    .main-img {
+                        width: 300px;
+                        border-radius: 20px 20px 0 0;
+                    }
+                    .content {
+                        width: 205px;
+                    }
+                    .plans {
+                        margin-top: 30px;
+                        margin-bottom: 20px;
+                    }
+                    .annual-plan img {
+                        width: 35px;
+                    }
+                    .annual-plan h3 {
+                        font-size: 14px;
+                    }
+                    .annual-plan p {
+                        font-size: 12px;
+                    }
+                    .plans a {
+                        font-size: 12px;
+                    }
+                    .proceed {
+                        font-size: 12px;
+                        padding: 10px 45px;
+                        margin-bottom: 20px;
+                    }
+                    .cancel {
+                        margin-bottom: 25px;
+                    }
+                }
