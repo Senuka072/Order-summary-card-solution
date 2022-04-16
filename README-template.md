@@ -11,7 +11,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/order-summary-card-solution-Sk4Zke_45
 - Live Site URL: https://oder-summary-card-solution-senuka.netlify.app/
 
 
